@@ -1,59 +1,51 @@
 body {
     margin: 0;
     padding-top: 100px;
-    padding-bottom: 50px;
-    background: linear-gradient(to right, #939393, 66%, #cecdcd);
+    background: linear-gradient(to right, #939393 66%, #cecdcd);
     color: white;
-    font-family: Georgia;
+    font-family: Georgia, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
-.top-panel {
+.top, .bottom {
     background-color: #333;
     color: white;
+    font-family: Georgia, sans-serif;
+}
+.top {
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
     padding: 20px;
-    font-family: Georgia;
 }
-.bottom-panel {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    position: fixed;
+.bottom {
     bottom: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    font-family: Georgia;
-    font-size: 20px;
-}
-.logo img{
     position: fixed;
-    width: 75px;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    clear:both;
+}
+.logo img {
+    position: fixed;
+    width: 70px;
     height: auto;
 }
 .nav-bar {
     text-align: right;
     margin-right: 30px;
 }
-.nav-bar li{
+.nav-bar li {
     display: inline;
     font-size: 30px;
     margin: 10px;
 }
-.nav-bar a {
+.nav-bar a, .bottom a {
     text-decoration: none;
     color: inherit;
 }
-.nav-bar a:hover {
-    color: #78ccfd;
-}
-.bottom-panel a {
-    text-decoration: none;
-    color: inherit;
-}
-.bottom-panel a:hover {
+.nav-bar a:hover, .bottom a:hover {
     color: #78ccfd;
 }
 .film-container {
@@ -61,16 +53,19 @@ body {
     overflow-x: auto;
     padding-left: 10px;
 }
+.film-container:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
 .film {
     margin-right: 30px;
     padding: 10px;
     width: 210px;
 }
-.film p{
+.film p {
     font-size: 20px;
     text-align: left;
     margin-top: 2px;
-    font-family: Helvetica;
+    font-family: Helvetica, sans-serif;
     font-weight: bold;
 }
 .film img {
@@ -83,5 +78,3 @@ body {
     text-align: left;
     margin-left: 20px;
 }
-
-
