@@ -3,14 +3,14 @@ body {
     padding-top: 100px;
     background: linear-gradient(to right, #939393 66%, #cecdcd);
     color: white;
-    font-family: Georgia, sans-serif;
+    font-family: Georgia;
     display: flex;
     flex-direction: column;
 }
 .top, .bottom {
     background-color: #333;
     color: white;
-    font-family: Georgia, sans-serif;
+    font-family: Georgia;
 }
 .top {
     position: fixed;
@@ -27,10 +27,14 @@ body {
     font-size: 20px;
     clear:both;
 }
-.logo img {
+.kinemania a {
     position: fixed;
-    width: 70px;
-    height: auto;
+    padding-top: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: Georgia;
+    font-size: 40px;
+    letter-spacing: 7px;
 }
 .nav-bar {
     text-align: right;
@@ -45,7 +49,7 @@ body {
     text-decoration: none;
     color: inherit;
 }
-.nav-bar a:hover, .bottom a:hover {
+.nav-bar a:hover, .bottom a:hover, .popular-now ul li a:hover, .kinemania a:hover {
     color: #78ccfd;
 }
 .film-container {
@@ -65,7 +69,7 @@ body {
     font-size: 20px;
     text-align: left;
     margin-top: 2px;
-    font-family: Helvetica, sans-serif;
+    font-family: Helvetica;
     font-weight: bold;
 }
 .film img {
@@ -77,4 +81,12 @@ body {
     font-size: 30px;
     text-align: left;
     margin-left: 20px;
+}
+.popular-now ul li{
+    margin-top: 16px;
+}
+.popular-now ul li a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
 }
