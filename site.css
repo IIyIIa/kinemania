@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background: linear-gradient(to right, #939393, 66%, #cecdcd);
+    color: white;
+    font-family: Georgia;
+}
+.top-panel {
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    font-family: Georgia;
+}
+.bottom-panel {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 20px;
+}
+.logo img{
+    position: fixed;
+    width: 75px;
+    height: auto;
+}
+.nav-bar {
+    text-align: right;
+    margin-right: 30px;
+}
+.nav-bar li{
+    display: inline;
+    font-size: 30px;
+    margin: 10px;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: inherit;
+}
+.nav-bar a:hover {
+    color: #78ccfd;
+}
+.bottom-panel a {
+    text-decoration: none;
+    color: inherit;
+}
+.bottom-panel a:hover {
+    color: #78ccfd;
+}
+.film-container {
+    display: flex;
+    overflow-x: auto;
+    padding-left: 10px;
+}
+.film {
+    margin-right: 30px;
+    padding: 10px;
+    width: 210px;
+}
+.film p{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 2px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+.film img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+.popular-now h2 {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+
