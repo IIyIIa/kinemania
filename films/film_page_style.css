@@ -39,6 +39,7 @@ body {
     font-family: Georgia;
     font-size: 40px;
     letter-spacing: 7px;
+    margin-left: 100px;
 }
 
 .nav-bar {
@@ -73,7 +74,7 @@ body {
 
 .film-info h1 {
     margin-top: 0;
-    font-size: 50px;
+    font-size: 35px;
     font-family: Helvetica;
 }
 
@@ -100,4 +101,10 @@ body {
     width: 1245px;
     height: 600px;
     border: 2px solid black;
+}
+.top img {
+    margin-top: -3px;
+    position: fixed;
+    width: 75px;
+    height: auto;
 }

@@ -18,6 +18,12 @@ body {
     width: 100%;
     padding: 20px;
 }
+.top img {
+    margin-top: -3px;
+    position: fixed;
+    width: 75px;
+    height: auto;
+}
 .bottom {
     bottom: 0;
     position: fixed;
@@ -35,6 +41,7 @@ body {
     font-family: Georgia;
     font-size: 40px;
     letter-spacing: 7px;
+    margin-left: 100px;
 }
 .nav-bar {
     text-align: right;
@@ -74,7 +81,7 @@ body {
 }
 .film img {
     width: 200px;
-    height: auto;
+    height: 300px;
     border-radius: 10px;
 }
 .popular-now h2 {
