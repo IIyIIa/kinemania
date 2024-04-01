@@ -1,14 +1,14 @@
 body {
     margin: 0;
     padding-top: 100px;
-    background: linear-gradient(to right, #939393 66%, #cecdcd);
+    background: linear-gradient(to right, #202020 50%, #5f5f5f);
     color: white;
     font-family: Georgia;
     display: flex;
     flex-direction: column;
 }
 .top, .bottom {
-    background-color: #333;
+    background-color: #101010;
     color: white;
     font-family: Georgia;
 }
