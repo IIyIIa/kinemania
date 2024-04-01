@@ -45,11 +45,11 @@ body {
     font-size: 30px;
     margin: 10px;
 }
-.nav-bar a, .bottom a {
+.nav-bar a, .bottom a, .film-container a {
     text-decoration: none;
     color: inherit;
 }
-.nav-bar a:hover, .bottom a:hover, .popular-now ul li a:hover, .kinemania a:hover {
+.nav-bar a:hover, .bottom a:hover, .popular-now ul li a:hover, .kinemania a:hover, .film-container a:hover {
     color: #78ccfd;
 }
 .film-container {
