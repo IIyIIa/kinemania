@@ -4,7 +4,6 @@ body {
     background: linear-gradient(to right, #202020 50%, #5f5f5f);
     color: white;
     font-family: Georgia;
-    display: flex;
     flex-direction: column;
 }
 
