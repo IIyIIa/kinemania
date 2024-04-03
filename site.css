@@ -28,7 +28,7 @@ body {
 }
 
 .top img:hover {
-    transform: rotateY(20deg);
+    transform: skewX(-5deg);
 }
 
 .bottom {

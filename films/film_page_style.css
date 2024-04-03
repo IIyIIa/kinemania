@@ -113,7 +113,7 @@ body {
 }
 
 .top img:hover {
-    transform: rotateY(20deg);
+    transform: skewX(-5deg);
 }
 
 @media screen and (max-width: 800px) {
@@ -132,6 +132,7 @@ body {
         margin-left: 30px;
     }
     .poster {
+        margin-top: 20px;
         order: 1; /* Постер будет отображаться перед описанием */
     }
 
