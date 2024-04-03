@@ -113,3 +113,30 @@ body {
     color: inherit;
     font-size: 20px;
 }
+
+@media screen and (max-width: 800px) {
+  .kinemania {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+    .top img {
+        display: none;
+    }
+    .nav-bar {
+        text-align: left;
+        margin-right: 0;
+    }
+    .nav-bar li {
+        display: block;
+        font-size: 30px;
+        margin: 10px 0;
+    }
+    .kinemania {
+        display: none;
+    }
+    .popular-now {
+        padding-top: 100px;
+    }
+}

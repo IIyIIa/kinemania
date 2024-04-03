@@ -89,10 +89,12 @@ body {
 .about-film {
     margin-left: 25px;
     font-size: 18px;
+    white-space: normal;
+    word-break: break-word;
 }
 
 .film-description {
-    width: 1245px;
+    width: 100%;
 }
 
 .film-player {
@@ -108,4 +110,61 @@ body {
     position: fixed;
     width: 75px;
     height: auto;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .kinemania {
+      display: none;
+  }
+}
+
+@media screen and (max-width: 625px) {
+    .film-info {
+        display: flex;
+        flex-direction: column;
+    }
+    .film-info-description {
+        order: 2; /* Описание фильма будет отображаться после постера */
+        margin-left: 30px;
+    }
+    .poster {
+        order: 1; /* Постер будет отображаться перед описанием */
+    }
+
+    .film-info {
+        margin: 0 auto;
+    }
+    .top {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .top img {
+        display: none;
+    }
+    .nav-bar {
+        text-align: left;
+        margin-right: 0;
+    }
+    .nav-bar li {
+        display: block;
+        font-size: 30px;
+        margin: 10px 0;
+    }
+    .kinemania {
+        display: none;
+    }
+    .film-info {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .poster img {
+        width: 230px;
+        height: auto;
+    }
 }
