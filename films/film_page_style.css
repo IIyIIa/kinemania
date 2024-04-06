@@ -97,14 +97,6 @@ body {
     width: 100%;
 }
 
-.film-player {
-    margin-left: 25px;
-    margin-bottom: 150px;
-    width: 1245px;
-    height: 600px;
-    border: 2px solid black;
-}
-
 .top img {
     margin-top: -3px;
     position: fixed;
@@ -114,6 +106,38 @@ body {
 
 .top img:hover {
     transform: skewX(-5deg);
+}
+
+.film-player {
+    margin-bottom: 200px;
+}
+
+@media screen and (max-width: 1278px) {
+  .film-player video{
+    width: 1024px;
+    height: 768px;
+}
+}
+
+@media screen and (max-width: 1022px) {
+  .film-player video{
+    width: 800px;
+    height: 600px;
+}
+}
+
+@media screen and (max-width: 798px) {
+  .film-player video{
+    width: 640px;
+    height: 480px;
+}
+}
+
+@media screen and (max-width: 638px) {
+  .film-player video{
+    width: 320px;
+    height: 200px;
+}
 }
 
 @media screen and (max-width: 800px) {
